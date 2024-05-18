@@ -9,4 +9,4 @@ export const adminRoute = router.get("/users",authMiddleware,adminMiddleware, ad
 export const deleteaAdminRoute = router.delete("/users/delete/:userId",authMiddleware,adminMiddleware, deleteUserById);
 export const getAdminRoute = router.get("/users/:userId",authMiddleware,adminMiddleware, getUserById);
 export const updateAdminRoute = router.patch("/users/update/:userId",authMiddleware,adminMiddleware, updateUserById);
-export const addBookAdminRoute = router.post("/addbook",authMiddleware,adminMiddleware,addBookByAdmin)
+export const addBookAdminRoute = router.post("/addbook",addBookByAdmin)

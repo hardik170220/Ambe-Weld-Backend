@@ -13,6 +13,6 @@ const contactSchema = new mongoose.Schema({
     }
 });
 
-const ContactDetails = mongoose.model("ContactDetails",contactSchema);
+const ContactDetails = mongoose.model("Feedback",contactSchema);
 
 export default ContactDetails;

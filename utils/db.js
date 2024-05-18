@@ -8,7 +8,7 @@ export const connectDb = async ()=>{
     try {
     
         mongoose.connect(URI,{
-           dbName:"BookStore"
+           dbName:"Shop-Store"
         });
         console.log("connected to mongodb");
    } catch (error) {
